@@ -7,7 +7,9 @@ While this is an open source project on the kCura GitHub account, support is onl
 
 # usage
 Once installed the application consists of 3 objects
+![3objects](https://github.com/kCura-Relativity/javascript-pi/blob/master/documentation/images/3objects.png)
 
-  -JavaScripts,
+  -JavaScripts
   -Javascript Test Object
   -Javascript Associated Object Test
+  
