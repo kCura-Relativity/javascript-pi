@@ -35,7 +35,7 @@ Once installed the application consists of 3 objects
   This is simple a placeholder object for the single object field and multi-object field on the JavaScript Test Object.
   
   
-##future enhancements
+## future enhancements
 -Right now this simply works with the page interaction eventhandler RegisterStartupScriptBlock.  In the future, I would like to include a select for the other types of script blocks including the file script block.
 -I would like to create a post-install event handler for the application to create a few simple example JavaScripts
 -I would like to add the ids and names of all the lables and inputs on the JavaScript Test Object so that you would not have to look them up to test with them. 
