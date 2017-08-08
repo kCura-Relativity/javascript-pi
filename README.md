@@ -10,32 +10,32 @@ I have also included a sample Publish to Relativity config file to help should y
 While this is an open source project on the kCura GitHub account, support is only available through through the Relativity developer community. You are welcome to use the code and solution as you see fit within the confines of the license it is released under. However, if you are looking for support or modifications to the solution, we suggest reaching out to a [Relativity Development Partner](https://www.kcura.com/relativity/ediscovery-resources/ecosystem).
 
 ## usage
-Once installed the application consists of 3 objects
-![3objects](https://github.com/kCura-Relativity/javascript-pi/blob/master/documentation/images/3objects.png)
+Once installed the application consists of 3 objects  
+![3objects](https://github.com/kCura-Relativity/javascript-pi/blob/master/documentation/images/3objects.png)  
 
-  -**JavaScripts**
-  ![3objects](https://github.com/kCura-Relativity/javascript-pi/blob/master/documentation/images/javascriptobject.png)
-  This is the object that will contain your JavaScript to test
+  -**JavaScripts**  
+  ![3objects](https://github.com/kCura-Relativity/javascript-pi/blob/master/documentation/images/javascriptobject.png)  
+  This is the object that will contain your JavaScript to test  
   
-  *Name* - A name for your Javascript
-  *Description* - A description of it's purpose
-  *Text* - This is the text of the javascript you want the page interaction event handler to execute
-  *View Mode* - If not set, it will fire on both view and edit mode.
-	View Only - it will only fire on view mode
-	Edit Only - it will only fire on edit mode
-  *Disabled* - If disabled is checked, JavascriptPI will ignore this paticular JavaScript.
+  *Name* - A name for your Javascript  
+  *Description* - A description of it's purpose  
+  *Text* - This is the text of the javascript you want the page interaction event handler to execute  
+  *View Mode* - If not set, it will fire on both view and edit mode.  
+	View Only - it will only fire on view mode  
+	Edit Only - it will only fire on edit mode  
+  *Disabled* - If disabled is checked, JavascriptPI will ignore this paticular JavaScript.  
   
-  -**Javascript Test Object**
-  ![TestOjbect](https://github.com/kCura-Relativity/javascript-pi/blob/master/documentation/images/javascripttestobject.png)
-  This is a test object that the JavaScript PI event handler comes attached to by default.  When viewing these objects, any **JavaScripts** will be executed on this object.  If there are errors in the JavaScripts, there could be a problem with viewing or saving these objects.
-  There is one field of each type on this test object to make your testing easy.  There is also a custom label at the bottom.
+  -**Javascript Test Object**  
+  ![TestOjbect](https://github.com/kCura-Relativity/javascript-pi/blob/master/documentation/images/javascripttestobject.png)  
+  This is a test object that the JavaScript PI event handler comes attached to by default.  When viewing these objects, any **JavaScripts** will be executed on this object.  If there are errors in the JavaScripts, there could be a problem with viewing or saving these objects.  
+  There is one field of each type on this test object to make your testing easy.  There is also a custom label at the bottom.  
   
-  -**Javascript Associated Object Test**
-  ![AssociatedObject](https://github.com/kCura-Relativity/javascript-pi/blob/master/documentation/images/javascripttestobjectassociative.png)
-  This is simple a placeholder object for the single object field and multi-object field on the JavaScript Test Object.
+  -**Javascript Associated Object Test**  
+  ![AssociatedObject](https://github.com/kCura-Relativity/javascript-pi/blob/master/documentation/images/javascripttestobjectassociative.png)  
+  This is simple a placeholder object for the single object field and multi-object field on the JavaScript Test Object.  
   
   
 ## future enhancements
--Right now this simply works with the page interaction eventhandler RegisterStartupScriptBlock.  In the future, I would like to include a select for the other types of script blocks including the file script block.
--I would like to create a post-install event handler for the application to create a few simple example JavaScripts
--I would like to add the ids and names of all the lables and inputs on the JavaScript Test Object so that you would not have to look them up to test with them. 
+-Right now this simply works with the page interaction eventhandler RegisterStartupScriptBlock.  In the future, I would like to include a select for the other types of script blocks including the file script block.  
+-I would like to create a post-install event handler for the application to create a few simple example JavaScripts  
+-I would like to add the ids and names of all the lables and inputs on the JavaScript Test Object so that you would not have to look them up to test with them.   
