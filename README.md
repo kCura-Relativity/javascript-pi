@@ -1,5 +1,5 @@
 # javascript-pi
-Open Source Community: This application is a tool where you can test out JavaScript without having to create the Page Interaction event handler just to do it.
+Open Source Community: This application is a tool that allow testing of JavaScript on a Page Interaction event hander without having to create the event handler itself.
 
 An eventhandler is attached to the JavaScript Test Object in the application.  It will read all the JavaScript objects and try to run the javascript included in the object on the Test Object for any that are not marked as disabled.
 
