@@ -3,7 +3,7 @@ Open Source Community: This application is a tool that allow testing of JavaScri
 
 An eventhandler is attached to the JavaScript Test Object in the application.  It will read all the JavaScript objects and try to run the javascript included in the object on the Test Object for any that are not marked as disabled.
 
-You will need to download https://github.com/kCura-Relativity/relativity-test-helpers and add the project to this solution or remove all references to the project in the code.  These helpers allowed me to set up a test for the GetAll function and develop it quickly.  Any interested in writing integrations tests?  I would love to see actual tests set up and some validation of the javascript execution in the front end. Let us know if you are interested.
+You will need to download https://github.com/relativitydev/relativity-test-helpers and add the project to this solution or remove all references to the project in the code.  These helpers allowed me to set up a test for the GetAll function and develop it quickly.  Any interested in writing integrations tests?  I would love to see actual tests set up and some validation of the javascript execution in the front end. Let us know if you are interested.
 
 I have also included a sample Publish to Relativity config file to help should you every try to modify and deploy the application.
 
