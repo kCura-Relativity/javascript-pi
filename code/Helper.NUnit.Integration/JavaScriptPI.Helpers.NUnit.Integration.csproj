@@ -59,6 +59,10 @@
     <Reference Include="Relativity.Services.ServiceProxy">
       <HintPath>..\..\..\..\SourceCode\CustomDevelopment\Solutions\lib\Relativity SDK\9.4.224.2\Services API\Client\Relativity.Services.ServiceProxy.dll</HintPath>
     </Reference>
+    <Reference Include="Relativity.Test.Helpers, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RelativityTestHelpersNuget.1.1.0\lib\Relativity.Test.Helpers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -77,10 +81,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\relativity-test-helpers\Source\Relativity.Test.Helpers\Relativity.Test.Helpers\Relativity.Test.Helpers.csproj">
-      <Project>{500fcc47-7792-47e0-8308-ff7632c65cc9}</Project>
-      <Name>Relativity.Test.Helpers</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Data\JavaScriptPI.Helpers.csproj">
       <Project>{3ccefe47-fb36-4414-b248-de5e94e41c0e}</Project>
       <Name>JavaScriptPI.Helpers</Name>
