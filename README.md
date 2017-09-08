@@ -3,18 +3,18 @@ Open Source Community: This application is a tool that allow testing of JavaScri
 
 An eventhandler is attached to the JavaScript Test Object in the application.  It will read all the JavaScript objects and try to run the javascript included in the object on the Test Object for any that are not marked as disabled.
 
-You will need to download https://github.com/relativitydev/relativity-test-helpers and add the project to this solution or remove all references to the project in the code.  These helpers allowed me to set up a test for the GetAll function and develop it quickly.  Any interested in writing integrations tests?  I would love to see actual tests set up and some validation of the javascript execution in the front end. Let us know if you are interested.
+You may need to update the nuget package for the Relativity Test Helpers.  These helpers allowed me to set up a test for the GetAll function and develop it quickly.  Any interested in writing integrations tests?  I would love to see actual tests set up and some validation of the javascript execution in the front end. Let us know if you are interested.
 
 I have also included a sample Publish to Relativity config file to help should you every try to modify and deploy the application.
 
-While this is an open source project on the kCura GitHub account, support is only available through through the Relativity developer community. You are welcome to use the code and solution as you see fit within the confines of the license it is released under. However, if you are looking for support or modifications to the solution, we suggest reaching out to a [Relativity Development Partner](https://www.kcura.com/relativity/ediscovery-resources/ecosystem).
+While this is an open source project on the kCura GitHub account, support is only available through through the Relativity developer community. You are welcome to use the code and solution as you see fit within the confines of the license it is released under. However, if you are looking for support or modifications to the solution, we suggest reaching out to a [Relativity Development Partner](https://www.relativity.com/ediscovery-software/app-hub/).
 
 ## usage
 Once installed the application consists of 3 objects  
-![3objects](https://github.com/kCura-Relativity/javascript-pi/blob/master/documentation/images/3objects.png)  
+![3objects](https://github.com/relativitydev/javascript-pi/blob/master/documentation/images/3objects.png)  
 
   -**JavaScripts**  
-  ![3objects](https://github.com/kCura-Relativity/javascript-pi/blob/master/documentation/images/javascriptobject.png)  
+  ![3objects](https://github.com/relativitydev/javascript-pi/blob/master/documentation/images/javascriptobject.png)  
   This is the object that will contain your JavaScript to test  
   
   *Name* - A name for your Javascript  
@@ -26,12 +26,12 @@ Once installed the application consists of 3 objects
   *Disabled* - If disabled is checked, JavascriptPI will ignore this paticular JavaScript.  
   
   -**Javascript Test Object**  
-  ![TestOjbect](https://github.com/kCura-Relativity/javascript-pi/blob/master/documentation/images/javascripttestobject.png)  
+  ![TestOjbect](https://github.com/relativitydev/javascript-pi/blob/master/documentation/images/javascripttestobject.png)  
   This is a test object that the JavaScript PI event handler comes attached to by default.  When viewing these objects, any **JavaScripts** will be executed on this object.  If there are errors in the JavaScripts, there could be a problem with viewing or saving these objects.  
   There is one field of each type on this test object to make your testing easy.  There is also a custom label at the bottom.  
   
   -**Javascript Associated Object Test**  
-  ![AssociatedObject](https://github.com/kCura-Relativity/javascript-pi/blob/master/documentation/images/javascripttestobjectassociative.png)  
+  ![AssociatedObject](https://github.com/relativitydev/javascript-pi/blob/master/documentation/images/javascripttestobjectassociative.png)  
   This is simple a placeholder object for the single object field and multi-object field on the JavaScript Test Object.  
   
   
