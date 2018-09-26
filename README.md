@@ -3,9 +3,9 @@ Open Source Community: This application is a tool that allows testing of JavaScr
 
 An eventhandler is attached to the JavaScript Test Object in the application.  It will read all the JavaScript objects and try to run the javascript included in the object on the Test Object for any that are not marked as disabled.
 
-You may need to update the nuget package for the Relativity Test Helpers.  These helpers allowed me to set up a test for the GetAll function and develop it quickly.  Any interested in writing integrations tests?  I would love to see actual tests set up and some validation of the javascript execution in the front end. Let us know if you are interested.
+You may need to update the nuget package for the Relativity Test Helpers.  These helpers allowed me to set up a test for the GetAll function and develop it quickly.  Anyone interested in writing integrations tests?  I would love to see actual tests set up and some validation of the javascript execution in the front end. Let us know if you are interested.
 
-I have also included a sample Publish to Relativity config file to help should you every try to modify and deploy the application.
+I have also included a sample Publish to Relativity config file to help if you try to modify and deploy the application.
 
 While this is an open source project on the Relativity GitHub account, support is only available through through the Relativity developer community. You are welcome to use the code and solution as you see fit within the confines of the license it is released under. However, if you are looking for support or modifications to the solution, we suggest reaching out to a [Relativity Development Partner](https://www.relativity.com/ediscovery-software/app-hub/).
 
